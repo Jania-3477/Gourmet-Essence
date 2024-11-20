@@ -1,0 +1,124 @@
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; 
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    font-size: 1.2rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.blog {
+    margin-top: 40px;
+}
+
+.recetas {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); 
+    gap: 20px;
+}
+
+.receta {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    transition: transform 0.3s ease;
+}
+
+.receta:hover {
+    transform: translateY(-5px); 
+}
+
+.receta img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.receta h3 {
+    font-size: 1.8rem;
+    color: #333;
+    margin-top: 15px;
+}
+
+.receta p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.5;
+    margin: 10px 0;
+}
+
+.receta ul, .receta ol {
+    list-style: none;
+    padding: 0;
+}
+
+.receta li {
+    font-size: 1rem;
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.receta h4 {
+    font-size: 1.3rem;
+    color: #333;
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
+button {
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+.total {
+    font-size: 18px;
+    font-weight: bold;
+}

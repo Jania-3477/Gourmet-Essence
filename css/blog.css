@@ -1,0 +1,64 @@
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+  }
+  
+  header nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .recetas {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1.5rem;
+    padding: 2rem;
+  }
+  
+  .recetas article {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    text-align: center;
+  }
+  
+  .recetas article img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .recetas article h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin: 1rem 0;
+  }
+  
+  .recetas article p {
+    font-size: 1rem;
+    color: #666;
+    margin: 0 1rem 1.5rem;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  

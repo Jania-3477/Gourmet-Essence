@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gourmet Essence - Carrito</title>
+  <link rel="stylesheet" href="css/carrito.css">
+  <script defer src="js/carrito.js"></script> 
+</head>
+<body>
+  <header>
+    <h1>Carrito de Compras</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html" aria-label="Ir a la página de inicio">Inicio</a></li>
+        <li><a href="productos.html" aria-label="Explorar la tienda">Tienda</a></li>
+        <li><a href="blog.html" aria-label="Leer el blog">Blog</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Lista de productos en el carrito -->
+    <section class="carrito">
+      <h2>Productos en tu Carrito</h2>
+      <div class="carrito-lista" aria-live="polite">
+      </div>
+    </section>
+
+    <section class="resumen">
+      <h2>Resumen</h2>
+      <p>Total: <span id="carrito-total">0</span> $</p>
+    </section>
+
+    <section class="acciones">
+      <button id="vaciar-carrito" aria-label="Vaciar carrito de compras">Vaciar Carrito</button>
+      <button id="finalizar-compra" aria-label="Proceder a la compra">Finalizar Compra</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2024 Gourmet Essence. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
+

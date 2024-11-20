@@ -1,0 +1,87 @@
+
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #f9f9f9;
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  header nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+  }
+  
+  header nav a:hover {
+    text-decoration: underline;
+  }
+  
+  .carrito {
+    padding: 2rem;
+  }
+  
+  .carrito .producto {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .carrito .producto img {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .carrito .producto .info {
+    flex: 1;
+    margin-left: 1rem;
+  }
+  
+  .carrito .producto .info h3 {
+    margin: 0;
+    font-size: 1.2rem;
+    color: #333;
+  }
+  
+  .carrito .producto .info p {
+    margin: 0.5rem 0;
+    color: #666;
+  }
+  
+  .carrito .acciones {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .carrito .acciones button {
+    padding: 0.5rem 1rem;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .carrito .acciones button:hover {
+    background-color: #0056b3;
+  }
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+  }
+  
